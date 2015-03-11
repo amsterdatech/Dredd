@@ -1,8 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="ProgressBarTheme" parent="android:Widget.ProgressBar.Horizontal">
+        <!--<item name="android:progressDrawable">@drawable/default_progress_horizontal_holo_light-->
+        <!--</item>-->
+        <!--<item name="android:indeterminateDrawable">-->
+            <!--@drawable/default_progress_indeterminate_horizontal_holo_light-->
+        <!--</item>-->
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+
 
 </resources>

@@ -17,9 +17,33 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    signingConfigs {
+        debug {
+            storeFile file("${store_file_keystore_debug}")
+            storePassword "${store_password_debug}"
+            keyAlias "${key_alias_debug}"
+            keyPassword "${key_password_debug}"
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            signingConfig signingConfigs.debug
+
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':dredd')
     compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:support-v4:21.0.3'
+    
 }
