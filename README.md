@@ -17,9 +17,16 @@ Dredd was created to be a simple way to detach application business logic in ord
 * There is a lot of work in order to make Drools run in Android , done by good people at community, but honestly regarding all the weird workarounds I not felt comfortable to go with those "stitched" tires.
 * A lot of dependencies that we ain't gonna need and will just augment the size of final artifact .
 
+### And about good principles of OOP? ###
+
+* We just follow the SOLID principles
+* Try to avoid over engineering  , I mean, create a lot of classes, interfaces just for sake of architecture.
+* We need to maintain the components easy to understand, decoupled and tolerate to changes.
 
 ### Reference ###
 
 * [InfoQ article](http://www.infoq.com/news/2007/12/haley)
 * [Martin Fowler article about Rule Engines](http://martinfowler.com/bliki/RulesEngine.html)
-* [Nice article about make Drools run on Android](http://tech-voyage.blogspot.com.br/2011/06/getting-rule-engine-to-work-on-mobile.html?m=1)
+* [Rules Engine on mobile platform : Getting Rule engine to work on Mobile Platform](http://tech-voyage.blogspot.com.br/2011/06/getting-rule-engine-to-work-on-mobile.html?m=1)
+*
+* [SOLID revisited](http://zeroturnaround.com/rebellabs/object-oriented-design-principles-and-the-5-ways-of-creating-solid-applications/)
