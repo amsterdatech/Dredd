@@ -15,7 +15,7 @@ Dredd was created to be a simple way to detach application business logic in ord
 
 * This project was born in a project where payload size of jar, memory consumption , cpu utilization and easy maintenance was a rule of thumb , thus Drools was a huge and overweight solution for our "simple" solution
 * There is a lot of work in order to make Drools run in Android , done by good people at community, but honestly regarding all the weird workarounds I not felt comfortable to go with those "stitched" tires.
-* A lot of dependencies that we ain't gonna need and will just augment the size of final artefact .
+* A lot of dependencies that we ain't gonna need and will just augment the size of final artifact .
 
 
 ### Reference ###
@@ -23,4 +23,3 @@ Dredd was created to be a simple way to detach application business logic in ord
 * [InfoQ article](http://www.infoq.com/news/2007/12/haley)
 * [Martin Fowler article about Rule Engines](http://martinfowler.com/bliki/RulesEngine.html)
 * [Nice article about make Drools run on Android](http://tech-voyage.blogspot.com.br/2011/06/getting-rule-engine-to-work-on-mobile.html?m=1)
-
