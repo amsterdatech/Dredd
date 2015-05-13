@@ -1,3 +1,4 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Dredd-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1785)
 # Dredd Rule Engine #
 
 Dredd was created to be a simple way to detach application business logic in order to create a decision tree model best for visualize and perhaps easy to understand and maintain.
