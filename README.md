@@ -12,6 +12,18 @@ Dredd was created to be a simple way to detach application business logic in ord
 * One common discussion concerns encapsulating business logic (i.e., rules) within objects or services. Services make sense for decisions and compliance that are orchestrated by the business process. If a requirement, regulation, policy or rule spans many classes in the model and many tasks within the process, externalized rules are strongly indicated.
 
 
+### Heuristics to use rule engine
+
+* As the number of criteria increases
+* As the set of criteria becomes more dynamic
+* As the criteria become more complex
+
+
+### Drawbacks
+
+* Since the maintainance of the business logic become easier to anyone, at least in theory, if there is a bug in the underlaying engine it could be complicated to debug even for those who has knowledge on it.
+
+
 ### Why  I do not use Drools ? ###
 
 * This project was born in a project where payload size of jar, memory consumption , cpu utilization and easy maintenance was a rule of thumb , thus Drools was a huge and overweight solution for our "simple" solution
