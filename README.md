@@ -19,11 +19,6 @@ Dredd was created to be a simple way to detach application business logic in ord
 * As the criteria become more complex
 
 
-### Drawbacks
-
-* Since the maintainance of the business logic become easier to anyone, at least in theory, if there is a bug in the underlaying engine it could be complicated to debug even for those who has knowledge on it.
-
-
 ### Why  I do not use Drools ? ###
 
 * This project was born in a project where payload size of jar, memory consumption , cpu utilization and easy maintenance was a rule of thumb , thus Drools was a huge and overweight solution for our "simple" solution
