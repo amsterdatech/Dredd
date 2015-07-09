@@ -36,7 +36,6 @@ Dredd was created to be a simple way to detach application business logic in ord
 * [InfoQ article](http://www.infoq.com/news/2007/12/haley)
 * [Martin Fowler article about Rule Engines](http://martinfowler.com/bliki/RulesEngine.html)
 * [Rules Engine on mobile platform : Getting Rule engine to work on Mobile Platform](http://tech-voyage.blogspot.com.br/2011/06/getting-rule-engine-to-work-on-mobile.html?m=1)
-*
 * [SOLID revisited](http://zeroturnaround.com/rebellabs/object-oriented-design-principles-and-the-5-ways-of-creating-solid-applications/)
 
 # License #
